@@ -4,11 +4,11 @@ const todoListElement = document.getElementById('tasks');
 function addComment(){
 
   newLi = document.createElement('li');
-  newTaskNode = document.createTextNode(taskInput.value)
-  newLi.appendChild(newTaskNode)
-  todoListElement.appendChild(newLi)
+  newTaskNode = document.createTextNode(taskInput.value);
+  newLi.appendChild(newTaskNode);
+  todoListElement.appendChild(newLi);
 
-};
+}
 
 
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const submitElement = document.getElementById("submit");
   submitElement.addEventListener("submit", function() {
     event.preventDefault();
-    addComment()
+    addComment();
    
   });
 
