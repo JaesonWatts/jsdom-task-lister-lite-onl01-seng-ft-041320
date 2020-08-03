@@ -3,10 +3,10 @@ const todoListElement = document.getElementById('tasks');
 
 function addComment(){
 
-  newLi = document.createElement('li');
-  newTaskNode = document.createTextNode(taskInput.value);
-  newLi.appendChild(newTaskNode);
-  todoListElement.appendChild(newLi);
+  // newLi = document.createElement('li');
+  // newTaskNode = document.createTextNode(taskInput.value);
+  // newLi.appendChild(newTaskNode);
+  // todoListElement.appendChild(newLi);
 
 }
 
