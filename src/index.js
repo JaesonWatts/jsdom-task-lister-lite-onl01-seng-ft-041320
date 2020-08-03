@@ -1,6 +1,6 @@
 const taskInput = document.getElementById('new-task-description');
 const todoListElement = document.getElementById('tasks');
-
+const form = document.getElementById('')
 function addComment(){
 console.log("Ass")
   // newLi = document.createElement('li');
@@ -16,7 +16,7 @@ console.log("Ass")
 
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  submitElement.addEventListener("submit", function() {
+  form.addEventListener("submit", function() {
     event.preventDefault();
     addComment();
    
