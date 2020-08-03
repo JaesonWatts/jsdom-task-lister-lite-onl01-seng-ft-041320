@@ -2,7 +2,7 @@ const taskInput = document.getElementById('new-task-description');
 const todoListElement = document.getElementById('tasks');
 
 function addComment(){
-
+console.log("Ass")
   // newLi = document.createElement('li');
   // newTaskNode = document.createTextNode(taskInput.value);
   // newLi.appendChild(newTaskNode);
