@@ -1,10 +1,10 @@
-const taskInput = document.getElementById('new-task-description').value;
+const taskInput = document.getElementById('new-task-description');
 cosnt todoListElement = document.getElementById('tasks');
 
 function addComment(){
 
   newLi = document.createElement('li');
-  newTaskNode = document.createTextNode(taskInput)
+  newTaskNode = document.createTextNode(taskInput.value)
   newLi.appendChild(newTaskNode)
   todoListElement.appendChild(newLi)
 
