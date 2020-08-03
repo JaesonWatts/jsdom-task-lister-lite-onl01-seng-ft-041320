@@ -1,5 +1,5 @@
 const taskInput = document.getElementById('new-task-description');
-cosnt todoListElement = document.getElementById('tasks');
+const todoListElement = document.getElementById('tasks');
 
 function addComment(){
 
