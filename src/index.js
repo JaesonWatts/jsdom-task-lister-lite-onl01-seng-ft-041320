@@ -16,7 +16,6 @@ console.log("Ass")
 
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  const submitElement = document.getElementById("submit");
   submitElement.addEventListener("submit", function() {
     event.preventDefault();
     addComment();
